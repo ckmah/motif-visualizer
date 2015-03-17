@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+svg {
+  position: absolute;
+  float: left;
+  margin: 0px;
+  padding: 0 50px;
+}
+#wrapper {
+  width: 100%;
+}
+.gene_name {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 24px;
+  text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+#entry {
+  display: table;
+  width: 100%;
+}
+.motif_container {
+  position: relative;
+  display: table-cell;
+  /*background-color: gray;*/
+  padding-right: 100px;
+}
+.b_sites {
+  font-size: 12px;
+  opacity: 0;
+}
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
